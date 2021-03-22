@@ -1,0 +1,52 @@
+Given I am on url "Salesforce"
+-> done: BrowserNavigationStepDef.GivenIAmOnUrl("Salesforce") (2.7s)
+And I login as "test" user
+-> done: LoginSteps.GivenILoginAsUser("test") (21.0s)
+When I search on "Search apps" searchbar and select "PROLIFIQ CRUSH"
+-> done: CRUSH_Navigation_Steps.WhenISearchAndselect("Search apps", "PROLIFIQ CRUSH") (16.9s)
+And I click "Account Plans" on top navigation menu
+-> done: CRUSH_Navigation_Steps.WhenIClickOnTopNavigationMenu("Account Plans") (1.4s)
+And I click "Account Plan Name", "DemoEdited" on "Account Plans" table
+-> done: TableSteps.WhenIClickOnTable("Account Plan Name", "DemoEdited", "Account Plans") (1.5s)
+And I click "SWOT" on top navigation menu
+-> done: CRUSH_Navigation_Steps.WhenIClickOnTopNavigationMenu("SWOT") (2.5s)
+And I click "Add" on "Strengths" analysis grid
+-> done: GridSteps.WhenIClickOnOnAnalysisGrid("Add", "Strengths") (4.5s)
+And I enter the value "test" in "Name" textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInTextboxOnModalPopup("test", "Name", "Create SWOT Analy...") (1.3s)
+And I enter the value "testsum" in summary textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInSumaryTextboxOnModalPopup("testsum", "Create SWOT Analy...") (1.5s)
+And I click on "Save" button on on "Create SWOT Analysis Item" modal popup
+-> done: ButtonStepDef.WhenIClickOnButtonOnOnModalPopup("Save", "Create SWOT Analy...") (4.4s)
+And I Verify SWOT analysis item "test" is added to "Strengths" grid
+-> done: GridSteps.WhenIVerifySWOTAnalysisItemIsAddedToGrid("test", "Strengths") (1.1s)
+And I click "Add" on "Opportunities" analysis grid
+-> done: GridSteps.WhenIClickOnOnAnalysisGrid("Add", "Opportunities") (3.9s)
+And I enter the value "test" in "Name" textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInTextboxOnModalPopup("test", "Name", "Create SWOT Analy...") (1.2s)
+And I enter the value "testsum" in summary textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInSumaryTextboxOnModalPopup("testsum", "Create SWOT Analy...") (1.4s)
+And I click on "Save" button on on "Create SWOT Analysis Item" modal popup
+-> done: ButtonStepDef.WhenIClickOnButtonOnOnModalPopup("Save", "Create SWOT Analy...") (4.4s)
+And I Verify SWOT analysis item "test" is added to "Opportunities" grid
+-> done: GridSteps.WhenIVerifySWOTAnalysisItemIsAddedToGrid("test", "Opportunities") (1.1s)
+And I click "Add" on "Weaknesses" analysis grid
+-> done: GridSteps.WhenIClickOnOnAnalysisGrid("Add", "Weaknesses") (3.8s)
+And I enter the value "test" in "Name" textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInTextboxOnModalPopup("test", "Name", "Create SWOT Analy...") (1.2s)
+And I enter the value "testsum" in summary textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInSumaryTextboxOnModalPopup("testsum", "Create SWOT Analy...") (1.4s)
+And I click on "Save" button on on "Create SWOT Analysis Item" modal popup
+-> done: ButtonStepDef.WhenIClickOnButtonOnOnModalPopup("Save", "Create SWOT Analy...") (4.4s)
+And I Verify SWOT analysis item "test" is added to "Weaknesses" grid
+-> done: GridSteps.WhenIVerifySWOTAnalysisItemIsAddedToGrid("test", "Weaknesses") (1.1s)
+And I click "Add" on "Threats" analysis grid
+-> done: GridSteps.WhenIClickOnOnAnalysisGrid("Add", "Threats") (3.8s)
+And I enter the value "test" in "Name" textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInTextboxOnModalPopup("test", "Name", "Create SWOT Analy...") (1.2s)
+And I enter the value "testsum" in summary textbox on "Create SWOT Analysis Item" modal popup
+-> done: TextboxSteps.WhenIEnterTheValueInSumaryTextboxOnModalPopup("testsum", "Create SWOT Analy...") (1.4s)
+And I click on "Save" button on on "Create SWOT Analysis Item" modal popup
+-> done: ButtonStepDef.WhenIClickOnButtonOnOnModalPopup("Save", "Create SWOT Analy...") (4.4s)
+And I Verify SWOT analysis item "test" is added to "Threats" grid
+-> done: GridSteps.WhenIVerifySWOTAnalysisItemIsAddedToGrid("test", "Threats") (1.1s)

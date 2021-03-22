@@ -1,0 +1,22 @@
+﻿{
+  "BrowserConfig": {
+    "Url": "https://login.salesforce.com/",
+    "Browser": "Chrome", //Chrome or Edge
+    "DeleteCookies": true,
+    "UseIngognitoMode": true
+  },
+  "ReportConfig": {
+    "ReportPath": "Default",
+    "ReportColour": "Dark"
+  },
+  "DriverConfig": {
+    "ImplicitWaitTime": 20,
+    "ExplicitWaitTime": 20
+  },
+  "Credentials": {
+    "Salesforce": {
+      "UserName": "suresha@ilink.com",
+      "Password": "Sureshbz@321"
+    }
+  }
+}
